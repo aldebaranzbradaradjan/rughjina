@@ -1,0 +1,32 @@
+name: Rughjina
+
+on:
+  push:
+    branches: [ principale ]
+  pull_request:
+    branches: [ principale ]
+
+jobs:
+  ic:
+    env:
+        RUST_BACKTRACE: 1
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        rust:
+          - stable
+          - nightly
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions-rs/toolchain@v1
+        with:
+          profile: minimal
+          toolchain: ${{ matrix.rust }}
+          override: true
+
+      - name: Lampera esempiu
+        uses: actions-rs/cargo@v1
+        with:
+          command: run
