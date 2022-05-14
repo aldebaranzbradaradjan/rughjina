@@ -1,6 +1,6 @@
 # rughjina
 
-![](https://github.com/aldebaranzbradaradjan/rughjina/raw/principale/logo.jpeg)
+![](https://github.com/aldebaranzbradaradjan/rughjina/raw/main/logo.jpeg)
 
 Aren't you _stancu_ from writing Rust programs in English? Do you like saying
 "merda" a lot? Would you like to try something different, in an exotic and
@@ -63,8 +63,7 @@ syntax. Eccu, that's it.
 
 First of all, _grazie_ for considering participating to this joke, the
 Corsican government will thank you later, be sure ! Feel free to throw in a few identifiers
-here and there, and open a pull-request against the `principale` (Corsican for
-`main`) branch.
+here and there !
 
 Feel free to introduce swear words :)
 
